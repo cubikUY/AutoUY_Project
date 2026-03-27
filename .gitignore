@@ -1,0 +1,49 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build outputs
+.next
+.turbo
+dist
+build
+out
+
+# Generated Prisma client
+packages/database/generated
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Editor
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Cache
+.cache
+.eslintcache
+
+# Sensitive / local dev files
+secret.txt
+seed_error.txt
+test-db.ts
+
+# Build artifacts
+*.tsbuildinfo
+out.txt
+
+# Claude Code local settings
+.claude/settings.local.json

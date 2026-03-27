@@ -1,0 +1,15 @@
+node_modules
+.pnpm-store
+.next
+.turbo
+dist
+build
+out
+.git
+.env
+.env*.local
+.vscode
+.idea
+*.log
+.cache
+.eslintcache

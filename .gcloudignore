@@ -1,0 +1,12 @@
+#!include:.gitignore
+.git/
+.gitignore
+node_modules/
+.pnpm-store/
+.next/
+.turbo/
+dist/
+build/
+out/
+seed_error.txt
+test-db.ts

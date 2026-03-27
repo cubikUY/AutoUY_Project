@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-sans: "Inter", system-ui, sans-serif;
+    --primary-50: #eff6ff;
+    --primary-100: #dbeafe;
+    --primary-400: #60a5fa;
+    --primary-500: #3b82f6;
+    --primary-600: #2563eb;
+    --primary-700: #1151c8;
+    --primary-800: #1e40af;
+    --primary-950: #11274f;
+    --primary-default: #136dec;
+  }
+
+  * {
+    @apply border-neutral-200;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    @apply bg-neutral-100 font-sans text-neutral-900;
+    min-height: 100dvh;
+  }
+}
