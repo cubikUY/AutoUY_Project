@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "description": "AutoUY — Marketplace de Vehículos Multitenant (Uruguay)",
   "scripts": {
+    "postinstall": "prisma generate --schema=packages/database/prisma/schema.prisma",
     "dev": "turbo run dev",
     "build": "turbo run build",
     "lint": "turbo run lint",
