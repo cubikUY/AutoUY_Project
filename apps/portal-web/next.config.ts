@@ -2,7 +2,6 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   transpilePackages: ["@autouuy/ui"],
-  output: "standalone",
   serverExternalPackages: ["@prisma/client", "@autouuy/database"],
   images: {
     remotePatterns: [
