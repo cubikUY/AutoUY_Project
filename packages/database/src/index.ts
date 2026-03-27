@@ -1,4 +1,4 @@
-import { PrismaClient } from "../generated/client";
+import { PrismaClient } from "@prisma/client";
 
 // ─── Singleton PrismaClient (dev hot-reload safe) ────────────────────────────
 
@@ -27,7 +27,7 @@ export {
   VehicleCondition,
   VehicleStatus,
   LeadStatus,
-} from "../generated/client";
+} from "@prisma/client";
 
 export type {
   User,
@@ -39,4 +39,4 @@ export type {
   Lead,
   Favorite,
   Prisma,
-} from "../generated/client";
+} from "@prisma/client";
