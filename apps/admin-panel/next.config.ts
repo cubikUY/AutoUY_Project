@@ -1,8 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  transpilePackages: ["@autouuy/ui", "@autouuy/database"],
-  output: "standalone",
+  outputFileTracingIncludes: {
+    "/**": ["../../node_modules/.pnpm/@prisma+client*/**/*.node"],
+  },
+  transpilePackages: ["@autouuy/ui"],
+  serverExternalPackages: ["@prisma/client", "@autouuy/database"],
   images: {
     remotePatterns: [
       {
